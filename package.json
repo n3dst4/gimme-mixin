@@ -1,0 +1,56 @@
+{
+  "name": "gimme-mixin",
+  "version": "1.0.0",
+  "description": "A React mixin for enabling unlock codes",
+  "main": "gimme-mixin.js",
+  "scripts": {
+    "test": "babel-tape-runner tests/test-gimme-mixin.js | tap-spec",
+    "debug-test": "node-debug ./node_modules/babel-tape-runner/bin/babel-tape-runner ./tests/test-gimme -mixin.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/n3dst4/gimme-mixin.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Neil de Carteret <npm@lumphammer.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/n3dst4/gimme-mixin/issues"
+  },
+  "homepage": "https://github.com/n3dst4/gimme-mixin#readme",
+  "dependencies": {
+    "babelify": "^6.2.0"
+  },
+  "browser": {
+    "transform": [
+      "babelify"
+    ]
+  },
+  "eslintConfig": {
+    "parser": "babel-eslint",
+    "env": {
+      "browser": true,
+      "node": true
+    },
+    "rules": {
+      "quotes": 0
+    },
+    "plugins": [
+      "react"
+    ]
+  },
+  "devDependencies": {
+    "babel-eslint": "^4.1.0",
+    "babel-tape-runner": "^1.2.0",
+    "browserify": "^11.0.1",
+    "eslint": "^1.2.1",
+    "eslint-plugin-react": "^3.2.3",
+    "jsdom": "^3.1.2",
+    "react": "^0.13.3",
+    "tap-spec": "^4.1.0",
+    "tape": "^4.2.0",
+    "tape-catch": "^1.0.4"
+  }
+}
