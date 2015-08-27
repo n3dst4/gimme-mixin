@@ -1,5 +1,5 @@
-# gimme-mixin
+# react-gimme
 
-<img src="https://api.travis-ci.org/n3dst4/gimme-mixin.svg" />
+<img src="https://api.travis-ci.org/n3dst4/react-gimme.svg" />
 
-A React mixin for enabling unlock codes
+A React component for detecting 90s-video-game-style cheat codes.
