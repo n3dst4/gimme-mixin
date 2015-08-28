@@ -9,6 +9,7 @@
   },
   "jest": {
     "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
+    "testDirectoryName": "tests",
     "testFileExtensions": [
       "es6",
       "js"
